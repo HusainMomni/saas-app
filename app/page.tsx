@@ -1,16 +1,15 @@
-import { Button } from '@/components/ui/button'
-import React from 'react'
+import { Button } from "@/components/ui/button";
+import React from "react";
+import "./globals.css";
 
 const Page = () => {
   return (
     <div>
-      <h1 className='text-2xl underline'>welcome to my saas app</h1>
-      
-      <Button>
-        lets get started
-      </Button>
-    </div>
-  )
-}
+      <h1 className="text-2xl underline">welcome to my saas app</h1>
 
-export default Page
+      <Button>lets get started</Button>
+    </div>
+  );
+};
+
+export default Page;
