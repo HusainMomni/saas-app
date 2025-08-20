@@ -1,10 +1,12 @@
+import { PricingTable } from "@clerk/nextjs"
 
 const Subscription = () => {
   return (
     <div>
-      Subscription
+      <PricingTable/>
     </div>
   )
 }
 
 export default Subscription
+/*supabase pass vTXoyEJ1ppzxYS35 */
